@@ -2,8 +2,8 @@ package SimpleProject;
 
 public class Numbers {
     public static void main(String[] args) {
-        for (int i = 1; i <= 100; i+=2) {
-            System.out.println(i);
+        for (int i = 2; i <= 100; i+=2) {
+            System.out.println("even: "+i);
 
         }
     }
